@@ -1,0 +1,10 @@
+data = [10, 501, 22, 37, 100, 999, 87, 351]
+result = filter(lambda x: x > 4, data)
+print(list(result))
+
+Expected output:
+[10, 501, 22, 37, 100, 999, 87, 351]
+
+Thus above code checks the each elements in the data list are greater than 4 or not, 
+if it is greater than 4 - filter function fetches that element saves in the result variable and 
+prints those elements in the form of list.
